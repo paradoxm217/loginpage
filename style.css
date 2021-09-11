@@ -7,6 +7,11 @@ body{
     font-family: cursive;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    overflow: hidden;
+    
 }
 
 form{
@@ -50,4 +55,55 @@ button{
  }
  :hover button {
      cursor: pointer;
+ }
+
+ @media only screen and (max-width:700px) and (min-width:360px) {
+    form{
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+        margin-right: 30px;
+    }
+
+    .block {
+        display: block;
+        width: 350px;
+        height: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        border-bottom: 1px solid black;
+        background: transparent;
+        color: black;
+        
+    }
+
+    button{
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        border: 1px solid gray;
+        background-color: black;
+        color: white;
+        margin-top: 40px;
+        border-radius: 10px;
+        box-shadow: red;
+        margin-right: 40px
+    }
+
+   form {
+   
+     
+
+   }
  }
